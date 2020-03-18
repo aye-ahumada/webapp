@@ -1,0 +1,81 @@
+#content {
+  margin-top: 30px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background: white;
+  border-radius: 0px 2px 5px #ccc;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#header {
+  background: rgb(96, 49, 224);
+  color: white;
+  margin: 0px;
+  height: 90px;
+  line-height: 90px;
+}
+
+#header h1 {
+  display: block;
+  line-height: 90px;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+
+#nav {
+  padding: 15px;
+  margin: 0px;
+  background: rgb(55, 23, 144);
+
+}
+
+#nav ul {
+
+  list-style: none;
+  padding-left: 10px;
+}
+
+#nav ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+#nav ul li a {
+  display: block;
+  color: white;
+  height: 30px;
+  line-height: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 300ms;
+}
+
+#nav ul li a:hover {
+  text-decoration: none;
+  background: rgba(96, 49, 224, 0.38);
+}
+
+.activado {
+  text-decoration: none !important;
+  background: rgba(96, 49, 224, 0.38) !important;
+  border-bottom: 2px solid #88959c;
+}
+
+#footer {
+  margin-top: 50px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  color: gray;
+}
+
+#main {
+  margin-top: 25px;
+}
+
+#form-producto label {
+  margin-top: 10px ;
+  font-weight: bold;
+}

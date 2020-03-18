@@ -1,0 +1,10 @@
+<h3> {{titulo}} </h3>
+
+<div>
+  <ul *ngFor="let producto of productos">
+    <li> {{producto.name}} </li>
+    <li> {{producto.description}} </li>
+    <li> {{producto.precio}} </li>
+    <li> <img style="max-width: 50px;" [src]="producto.imgURL"> </li>
+  </ul>
+</div>
